@@ -1,0 +1,30 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+*.env
+
+# Django-specific
+*.sqlite3
+/media/
+/staticfiles/
+
+# Environment variables and secret keys
+.env
+
+# IDE-specific
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Byte-compiled files
+*.pyc
+*.pyo
+
+# Node modules (if using npm for frontend)
+node_modules/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
